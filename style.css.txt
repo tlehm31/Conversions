@@ -1,0 +1,54 @@
+.Convertor {
+  background-color: #ffffff; /* A lighter background */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  padding: 30px;
+  margin: 50px auto; /* Center the div and add space */
+  max-width: 400px; /* Limit width */
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.Convertor:hover {
+  transform: translateY(-5px) scale(1.01); /* Lift and slightly enlarge on hover */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  background-color: lightblue; /* Keep existing H1 style */
+  display: flex; /* Keep existing H1 style */
+  flex-direction: column; /* Keep existing H1 style */
+}
+
+input[type="number"], select, button {
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: calc(100% - 20px); /* Adjust width to fit padding */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 1.1em;
+  color: #555;
+}
+
+#resultElement {
+  font-weight: bold;
+  color: #007bff;
+}
